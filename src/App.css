@@ -1,0 +1,22 @@
+.App {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.App > div {
+  margin-right: 50px;
+}
+
+.active-filter{
+  background-color: blueviolet;
+  color: aliceblue;
+  font-weight: bold;
+}
+.error{
+  border: 2px solid red;
+  outline: transparent;
+}
+.error-text{
+  color: red;
+}
